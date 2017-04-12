@@ -152,6 +152,7 @@ Contact
     margin-top: 15px;
     background-color: #f6f6f6;
     box-shadow: 2px 4px 4px lightgray;
+    clear: both;
 }
 
 .formStyle label {
@@ -182,14 +183,28 @@ Contact
 }
 
 .formText {
-    width: 80%;
+    width: 70%;
     height: 100%;
     margin-left: 5%;
+    display: inline;
+/*    float: left;*/
 }
 
 .contactHead {
     text-align: center;
 /*    text-shadow: 1px 1px(gray) 0px;*/
+}
+
+.iconDiv {
+    width: 30%;
+    height: 100%;
+    display: inline;
+/*    float: left;*/
+}
+
+.iconDiv img {
+    width: 50px;
+    height: 50px;
 }
 
 
