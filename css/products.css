@@ -128,11 +128,53 @@ Mission
 Contact
 *************/
 
+#formDiv {
+    height: 100%;
+    width: 70%;
+    border: 2px inset black;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: #f6f6f6;
+    box-shadow: 2px 4px 4px lightgray;
+}
 
+.formStyle label {
+    font-size: 1.5em;
+    display: block;
+    width: 150px;
+}
 
+.formStyle input {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
 
+.textarea {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
 
+.submitButton {
+    width: 70px;
+    height: 30px;
+    background-color: #FF5247;
+    margin-left: 5.5em;
+    margin-bottom: 2em;
+    font-size: 1em;
+    color: white;
+    box-shadow: 2px 3px lightgray;
+}
 
+.formText {
+    width: 80%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.contactHead {
+    text-align: center;
+/*    text-shadow: 1px 1px(gray) 0px;*/
+}
 
 
 
