@@ -82,9 +82,13 @@ aside{
 /*************
 PRODUCTS
 *************/
+/* parent conatiner*/
+.products {}
 
-.testing {
+.articles {
     color: pink;
+    width: 25%;
+    display: inline-block;
 }
 
 .image-size {

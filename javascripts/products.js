@@ -56,13 +56,13 @@ var productArray = [
 
 
 for (prop in productArray) {
-    var cards = `<article class="testing">
+    var cards = `<article class="articles">
                     <h2>${productArray[prop].name} </h2>
                     <img class="image-size" src="${productArray[prop].image}">
+                    <p class="description">${productArray[prop].description}</p>
+                    <p class="price">${productArray[prop].price}</p>
                 </article>`;
     divElement.innerHTML += cards;
-
-
 }
 //for (var i = 0; i < productArray.length; i++) {
 //    console.log(productArray[i]);
