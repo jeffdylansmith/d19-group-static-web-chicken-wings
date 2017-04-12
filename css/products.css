@@ -85,13 +85,19 @@ PRODUCTS
 
 .testing {
     color: pink;
+    flex-grow: 1;
 }
 
 .image-size {
-    width: 80%;
+    width: 40%;
 /*    height: 40px;*/
 }
 
+#products{
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
 
 
 
