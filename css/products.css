@@ -210,6 +210,11 @@ Mission
   width:20px;
 }
 
+.clearfix:after {
+  display:table;
+  clear:both;
+  content:"";
+}
 
 
 /*************
