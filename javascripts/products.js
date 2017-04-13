@@ -12,7 +12,7 @@ var productArray = [
     },
     {
         name: "Teriyaki",
-        description: "The flavors of the Orient in yo mouth!",
+        description: "The flavors of the Orient!",
         price: "$4.99",
         image: "images/teriyaki-sauce.jpg",
     },
@@ -57,10 +57,12 @@ var productArray = [
 
 for (prop in productArray) {
     var cards = `<article class="articles">
-                    <h2>${productArray[prop].name} </h2>
                     <img class="image-size" src="${productArray[prop].image}">
-                    <p class="description">${productArray[prop].description}</p>
-                    <p class="price">${productArray[prop].price}</p>
+                    <div class = "overlay">
+                        <h2>${productArray[prop].name} </h2>
+                        <p class="description">${productArray[prop].description}</p>
+                        <p class="price">${productArray[prop].price}</p>
+                    </div>
                 </article>`;
     divElement.innerHTML += cards;
 }
