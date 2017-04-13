@@ -151,8 +151,33 @@ Employees
   width: 80%;
   display: flex;
   margin: auto;
+  margin-top: 25px;
   background-color: #FF5247;
   flex-direction: column;
+}
+
+#wrapperone {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-top: 25px;
+  background-color: #FF5247;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#wrapperone a {
+  color: white;
+  margin: auto 40px;
+}
+
+#wrapperone a:hover {
+  color: black;
+}
+
+.employee:not(:last-child) {
+  border-bottom: dashed 1px;
 }
 
 .employee {
@@ -169,20 +194,36 @@ Employees
 }
 
 .cont2 {
-  flex-direction: row;
   border-left: solid 1px black;
-  padding-left: 20px;
+  padding-left: 25px;
   padding-right: 20px;
   display: flex;
   flex-wrap: wrap;
   align-self: center;
-  justify-content: flex-start;
 }
 
-.item {
+.section1, .section2 {
   display: flex;
-  margin-right: 155px;
-  margin-left: 55px;
+}
+
+.link, .info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 255px;
+}
+
+.link h4, .info h4 {
+  margin-bottom: 5px;
+}
+
+.link ul, .info ul {
+  padding: 0 0;
+  list-style: none;
+  margin: 0 0;
+}
+
+.section1 a {
+  color: white;
 }
 
 h4, h5 {
