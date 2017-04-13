@@ -1,6 +1,23 @@
 /****************
 Home Page
 ****************/
+
+
+
+/************* sets all margins to zero to remove white edges*********
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+*/
+
+
+
 body a{
   text-decoration: none;
 }
@@ -18,7 +35,7 @@ body a{
   border-bottom: 1px black solid;
 }
 
-#top-nav ul , 
+#top-nav ul ,
 #bottom-nav ul{
   display: flex;
   justify-content: center;
@@ -37,10 +54,17 @@ body a{
   color: black;
 }
 
-#top-nav li:not , 
+#top-nav li:not ,
 #bottom-nav li:not (:last-child){
   border-right: 1px black solid;
 }
+/* ********hover option**************/
+/*
+#top-nav li :hover {
+    background-color: darkred;
+    color: white;
+}
+*/
 
 #main-content{
   display: flex;
@@ -191,7 +215,7 @@ Mission
 }
 
 #history {
-  background-color:#FF5247; 
+  background-color:#FF5247;
   margin:15px;
   font-family: "Comic Sans MS", cursive, sans-serif;
   color:white;
@@ -224,71 +248,135 @@ Contact
 #formDiv {
     height: 100%;
     width: 70%;
-    border: 2px inset black;
     margin: 0 auto;
     margin-top: 15px;
+    margin-bottom: 0px;
     background-color: #f6f6f6;
-    box-shadow: 2px 4px 4px lightgray;
-    clear: both;
 }
 
+
 .formStyle label {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     display: block;
-    width: 150px;
+    width: 20%;
 }
 
 .formStyle input {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     margin-bottom: 5px;
+    box-shadow: 2px 2px 2px black;
 }
 
 .textarea {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     margin-bottom: 5px;
+    box-shadow: 2px 2px 2px black;
 }
 
 .submitButton {
     width: 70px;
     height: 30px;
     background-color: #FF5247;
-    margin-left: 5.5em;
+    margin: 0 auto;
     margin-bottom: 2em;
-    font-size: 1em;
     color: white;
-    box-shadow: 2px 3px lightgray;
+    box-shadow: 2px 2px 2px black;
+}
+
+.submitButton:hover {
+    color: black;
+    background-color: yellow;
 }
 
 .formText {
-    width: 70%;
+    width: 50%;
     height: 100%;
-    margin-left: 5%;
-    display: inline;
-/*    float: left;*/
+    float: left;
+    padding-left: 2em;
+    background-color: silver;
+    color: white;
+    background-image: url("../images/wood.jpg");
+    background-position: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .contactHead {
     text-align: center;
-/*    text-shadow: 1px 1px(gray) 0px;*/
+}
+
+.poppapic {
+    width: 30%;
+    height: 45%;
+    float: right;
+    margin-left: 0;
+}
+
+.poppapic img {
+    width: 70%;
+    height: 70%;
+    border-radius: 100%;
+    border: 3px solid white;
+    box-shadow: 2px 2px 2px 2px red;
 }
 
 .iconDiv {
-    width: 30%;
-    height: 100%;
-    display: inline;
-/*    float: left;*/
+    width: 25%;
+    height: 50%;
+    float: right;
+    font-size: 1.2vw;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-right: 2em;
+    padding-bottom: 5px;
+    padding-right: 10px;
 }
 
 .iconDiv img {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+.iconDiv p {
+    margin: 0;
+    padding-bottom: 1em;
+
 }
 
 
+.bodyWrapper {
+    height: 100%;
+    width: 100%;
+    background-color: #FF5247;
+    box-shadow: 2px 4px 4px lightgray;
+}
 
+.funnychick {
+    width: 30%;
+    height: 30%;
+    margin: 0;
+    padding: 0;
+/*    padding-left: 30px;*/
+/*    margin-top: 50px;*/
+}
+.chicken {
+    width: 15%;
+    height: 15%;
+    margin: 0 auto;
+    float: left;
+/*    border: 2px solid black;*/
+}
+.chickenman {
+    width: 40%;
+    height: 40%;
+    float: right;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
 
-
-
-
-
+.chickenman:hover {
+    width: 50%;
+    height: 50%;
+}
 
