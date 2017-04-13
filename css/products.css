@@ -283,17 +283,22 @@ Contact
     box-shadow: 2px 2px 2px black;
 }
 
+.submitButton:hover {
+    color: black;
+    background-color: yellow;
+}
+
 .formText {
     width: 50%;
     height: 100%;
     float: left;
     padding-left: 2em;
     background-color: silver;
-    background-image: url(../images/wood.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
     color: white;
+    background-image: url("../images/wood.jpg");
+    background-position: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .contactHead {
@@ -311,8 +316,8 @@ Contact
     width: 70%;
     height: 70%;
     border-radius: 100%;
-    border: 3px solid black;
-    box-shadow: 5px 7p 5px 5px back;
+    border: 3px solid white;
+    box-shadow: 2px 2px 2px 2px red;
 }
 
 .iconDiv {
@@ -335,6 +340,8 @@ Contact
 
 .iconDiv p {
     margin: 0;
+    padding-bottom: 1em;
+
 }
 
 
@@ -345,10 +352,31 @@ Contact
     box-shadow: 2px 4px 4px lightgray;
 }
 
+.funnychick {
+    width: 30%;
+    height: 30%;
+    margin: 0;
+    padding: 0;
+/*    padding-left: 30px;*/
+/*    margin-top: 50px;*/
+}
+.chicken {
+    width: 15%;
+    height: 15%;
+    margin: 0 auto;
+    float: left;
+/*    border: 2px solid black;*/
+}
+.chickenman {
+    width: 40%;
+    height: 40%;
+    float: right;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
 
-
-
-
-
-
+.chickenman:hover {
+    width: 50%;
+    height: 50%;
+}
 
