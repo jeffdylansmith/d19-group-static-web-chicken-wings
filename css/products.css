@@ -57,12 +57,10 @@ body a{
   border-right: 1px black solid;
 }
 /* ********hover option**************/
-/*
 #top-nav li :hover {
-    background-color: darkred;
-    color: white;
+/*    background-color: darkred;*/
+    color: #FF5247;
 }
-*/
 
 #main-content{
   display: flex;
@@ -398,6 +396,12 @@ Contact
     border-radius: 100%;
     border: 3px solid white;
     box-shadow: 2px 2px 2px 2px red;
+}
+
+.poppapic img:hover {
+    width: 80%;
+    height: 80%;
+    float: center;
 }
 
 .iconDiv {
